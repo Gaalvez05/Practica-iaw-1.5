@@ -1,7 +1,7 @@
 # Practica-iaw-1.5
 Repositorio para la práctica 1.5. de IAW
 
-# 1 Instalar y configurar el cliente ACME Certbot en su instancia EC2 de AWS, siguiendo los pasos de la documentación oficial.
+# 1 Instalar y configurar el cliente ACME Certbot en la instancia EC2 de AWS.
 
 ## 1.1 Realizamos la instalación y actualización de snapd.
 ```
@@ -32,6 +32,7 @@ certbot --apache -m $LE_EMAIL --agree-tos --no-eff-email -d $LE_DOMAIN --non-int
 ```
 
 La dirección de correo y el dominio estarán en el archivo `.env` donde las declararemos con sus respectivos datos, de esta manera:
+
 ![](/img/Screenshot_20241108_132047.png)
 
 ## 1.4 Creamos una alias para el comando certbot.
