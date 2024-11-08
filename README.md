@@ -21,6 +21,8 @@ sudo snap install --classic certbot
 
 También es posible especificar como argumentos las respuestas que nos hará certbot durante el proceso de instalación. Por ejemplo, las mismas respuestas que hemos dado durante la instalación manual se podrían haber indicado con los siguientes parámetros.
 
+![](/img/image.png)
+
 * Dirección de correo: `-m $LE_EMAIL`
 * Aceptamos los términos de uso: `--agree-tos`
 * No queremos compartir nuestro email con la Electronic Frontier Foundation: `--no-eff-email`
